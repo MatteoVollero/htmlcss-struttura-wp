@@ -19,32 +19,40 @@
 main{
   width: 100%;
   height: 300px;
+  /* background-color: brown; */
 }
 
-.middle-boxes{
+.colonna1{
+  width: 248px;
+  height: 250px;
+  margin-left: 0;
   background-color: pink;
   float: left;
 }
 
-.left{
-  width:248px;
-  height: 250px;
-  margin:2px;
-  margin-left: 0;
+.colonna2{
+  width: 470px;
+  height: 300px;
+  margin-left: 15px;
+  background-color: violet;
+  float: left;
 }
 
-.middle{
-  width: 450px;
-  height: 298px;
-  margin-top: 2px;
-  margin-left: 24px;
-  margin-right:24px;
-}
-
-.right{
-  width:248px;
+.colonna3{
+  width: 248px;
   height: 145px;
-  margin: 2px;
+  margin-left: 19px;
+  background-color: pink;
+  float: left;
+}
+
+.blocco{
+  width: 248px;
+  height: 130px;
+  margin-top: 5px;
+  margin-left: 19px;
+  background-color: pink;
+  float: left;
 }
 
 .footer{
