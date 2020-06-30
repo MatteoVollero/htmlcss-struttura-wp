@@ -6,20 +6,19 @@
 
 .container{
   width: 1000px;
-  height: 1000px;
+  height: 600px;
   margin: auto;
-  background-color: brown;
 }
 
 .upper-box{
   background-color: yellow;
   height: 150px;
+  margin-bottom: 5px;
 }
 
 main{
   width: 100%;
   height: 300px;
-  background-color: red;
 }
 
 .middle-boxes{
@@ -35,14 +34,22 @@ main{
 }
 
 .middle{
-  width: 496px;
-  height: 300px;
-   margin: 2px;
+  width: 450px;
+  height: 298px;
+  margin-top: 2px;
+  margin-left: 24px;
+  margin-right:24px;
 }
 
 .right{
   width:248px;
-  height: 250px;
-  margin:2px;
-  margin-right: 0;
+  height: 145px;
+  margin: 2px;
+}
+
+.footer{
+  width: 1000px;
+  height: 100px;
+  background-color: blue;
+  margin-top: 5px;
 }
